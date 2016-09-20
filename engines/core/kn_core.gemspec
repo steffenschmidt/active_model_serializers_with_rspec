@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "swagger-blocks"
   s.add_dependency "devise_token_auth"
+  # ActiveModel::Serializer implementation and Rails hooks, https://github.com/rails-api/active_model_serializers
+  s.add_dependency "active_model_serializers", "~> 0.10.0"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"

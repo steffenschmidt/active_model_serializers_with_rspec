@@ -2,6 +2,7 @@ PATH
   remote: engines/core
   specs:
     kn_core (0.0.1)
+      active_model_serializers (~> 0.10.0)
       devise_token_auth
       rails (~> 5.0.0)
       swagger-blocks
@@ -155,7 +156,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_model_serializers (~> 0.10.0)
   byebug
   kn_core!
   listen (~> 3.0.5)
